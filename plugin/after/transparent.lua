@@ -20,6 +20,7 @@
 -- vim.api.nvim_set_hl(0, "TelescopePromptBorder", { bg = "none" })
 -- vim.api.nvim_set_hl(0, "TelescopePromptTitle", { bg = "none" })
 -- vim.api.nvim_set_hl(0, "LspInfoBorder", { fg = vim.api.nvim_get_hl(0, { name = "LspInfoBorder" }).fg, bg = "none" })
+vim.api.nvim_set_hl(0, "LspInlayHint", { fg = vim.api.nvim_get_hl(0, { name = "LspInlayHint" }).fg, bg = "none" })
 -- vim.api.nvim_set_hl(0, "StatusLineNC", { fg = vim.api.nvim_get_hl(0, { name = "StatusLineNC" }).fg, bg = "none" })
 -- vim.api.nvim_set_hl(0, "StatusLine", { fg = vim.api.nvim_get_hl(0, { name = "StatusLine" }).fg, bg = "none" })
 -- vim.api.nvim_set_hl(0, "WinSeparator", { fg = "#5D3C4A", bg = "none" })
